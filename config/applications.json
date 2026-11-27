@@ -4,8 +4,10 @@
   "applicationUrl": "https://pro.stage.resideo.com/",
   "sourceLanguage": "en",
   "sourceLanguageName": "English",
-  "targetLanguage": "es",
-  "targetLanguageName": "Spanish",
+  "targetLanguages": [
+    "es",
+    "de"
+  ],
   "testingScope": [
     "Dashboard"
   ],
@@ -16,7 +18,10 @@
     "captureEnglishBaseline": false,
     "compareTranslatedContent": true,
     "captureScreenshots": true,
-    "reuseExistingBaseline": true
+    "reuseExistingBaseline": true,
+    "sequentialExecution": true,
+    "validateAfterEachLanguageChange": true,
+    "generateConsolidatedReport": true
   },
   "baseline": {
     "filePath": "artifacts/baseline/english-baseline.json",

@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "applicationName": "Resideo Connect",
+    "applicationUrl": "https://pro.stage.resideo.com/",
+    "sourceLanguage": "en",
+    "sourceLanguageName": "English",
+    "testingScope": [
+      "Dashboard"
+    ],
+    "baselineStatus": "APPROVED",
+    "applicationVersion": null,
+    "generatedAt": "2026-11-27T07:34:47.333Z",
+    "approvedAt": null
+  },
+  "screens": [
+    {
+      "screenId": "dashboard",
+      "screenName": "Dashboard",
+      "elements": [
+        {
+          "elementId": null,
+          "elementName": "Mobile menu toggle",
+          "elementType": "button",
+          "sourceText": null,
+          "accessibleName": "Mobile Menu Toggle",
+          "placeholder": null,
+          "context": "Dashboard header navigation control.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Home",
+          "elementType": "link",
+          "sourceText": "Home",
+          "accessibleName": "Home",
+          "placeholder": null,
+          "context": "Dashboard header navigation.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Notifications control",
+          "elementType": "button",
+          "sourceText": null,
+          "accessibleName": "header-notifications-inactive",
+          "placeholder": null,
+          "context": "Dashboard header notification icon. The exposed accessible name appears to be a technical key rather than user-facing English.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Service status heading",
+          "elementType": "text",
+          "sourceText": "Service Interrupted",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Dashboard status banner.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Service status message",
+          "elementType": "text",
+          "sourceText": "We are aware that some users are experiencing issues for Resideo Service Professional. We appreciate your patience while we work towards a resolution.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Dashboard status banner below the status heading.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Check Status",
+          "elementType": "link",
+          "sourceText": "Check Status",
+          "accessibleName": "Check Status",
+          "placeholder": null,
+          "context": "Link in the service status banner.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Welcome heading text",
+          "elementType": "heading",
+          "sourceText": "Welcome",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Dashboard main heading. The account-specific name displayed after this text was excluded.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Map region",
+          "elementType": "region",
+          "sourceText": null,
+          "accessibleName": "Map",
+          "placeholder": null,
+          "context": "Interactive map on the Dashboard; account-specific map markers and numeric cluster labels are not transcribed.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Map keyboard shortcuts help",
+          "elementType": "button",
+          "sourceText": "Keyboard shortcuts",
+          "accessibleName": "Keyboard shortcuts",
+          "placeholder": null,
+          "context": "Map control; first occurrence in the map interface.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Map zoom in",
+          "elementType": "button",
+          "sourceText": "Zoom in",
+          "accessibleName": "Zoom in",
+          "placeholder": null,
+          "context": "Map zoom control.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Map zoom out",
+          "elementType": "button",
+          "sourceText": "Zoom out",
+          "accessibleName": "Zoom out",
+          "placeholder": null,
+          "context": "Map zoom control.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Open this area in Google Maps",
+          "elementType": "link",
+          "sourceText": "Open this area in Google Maps (opens a new window)",
+          "accessibleName": "Open this area in Google Maps (opens a new window)",
+          "placeholder": null,
+          "context": "Map link to an external mapping service.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Google map image",
+          "elementType": "image",
+          "sourceText": null,
+          "accessibleName": "Google",
+          "placeholder": null,
+          "context": "Map attribution image alternative text.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Map keyboard shortcuts help",
+          "elementType": "button",
+          "sourceText": "Keyboard shortcuts",
+          "accessibleName": "Keyboard shortcuts",
+          "placeholder": null,
+          "context": "Map control; second occurrence, distinct from the first keyboard shortcuts control.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Map attribution",
+          "elementType": "text",
+          "sourceText": "Map data ©2026 Google",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Google Maps attribution displayed on the Dashboard map.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Map terms",
+          "elementType": "link",
+          "sourceText": "Terms",
+          "accessibleName": "Terms (opens in new tab)",
+          "placeholder": null,
+          "context": "Google Maps attribution link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Alert count",
+          "elementType": "text",
+          "sourceText": "38 Alerts",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Dashboard alert summary. The numeric count is dynamic and recorded exactly as rendered at capture time.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Alert severity counts",
+          "elementType": "text",
+          "sourceText": "29 Urgent, 2 Warning, 7 Notice",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Dashboard alert summary. Counts are dynamic and recorded exactly as rendered at capture time.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "View Alerts",
+          "elementType": "link",
+          "sourceText": "View Alerts",
+          "accessibleName": "View Alerts",
+          "placeholder": null,
+          "context": "Link in the Dashboard alert summary.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Filters",
+          "elementType": "button",
+          "sourceText": "Filters",
+          "accessibleName": "Filters",
+          "placeholder": null,
+          "context": "Filter control associated with the Dashboard map and alerts.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Set Up Instructions",
+          "elementType": "heading",
+          "sourceText": "Set Up Instructions",
+          "accessibleName": "Set Up Instructions",
+          "placeholder": null,
+          "context": "Dashboard setup section heading.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Setup section introduction",
+          "elementType": "text",
+          "sourceText": "Simple instructions to help you and your team get started.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Introductory text under Set Up Instructions.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Purchase ProIQ by Credit Card",
+          "elementType": "text",
+          "sourceText": "Purchase ProIQ by Credit Card",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Title of the first setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Setup status",
+          "elementType": "text",
+          "sourceText": "Setup Incomplete",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Status label on the Purchase ProIQ by Credit Card setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Purchase services instructions",
+          "elementType": "text",
+          "sourceText": "Browse and purchase services individually. A credit card is required at checkout.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Description on the Purchase ProIQ by Credit Card setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Explore Services",
+          "elementType": "button",
+          "sourceText": "Explore Services",
+          "accessibleName": "Explore Services",
+          "placeholder": null,
+          "context": "Action on the Purchase ProIQ by Credit Card setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Invite Employees",
+          "elementType": "text",
+          "sourceText": "Invite Employees",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Title of the employee setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Employee invitation instructions",
+          "elementType": "text",
+          "sourceText": "Add team members and give them access to the tools they need.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Description on the Invite Employees setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Invite Team Members",
+          "elementType": "button",
+          "sourceText": "Invite Team Members",
+          "accessibleName": "Invite Team Members",
+          "placeholder": null,
+          "context": "Action on the Invite Employees setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Add Customers",
+          "elementType": "text",
+          "sourceText": "Add Customers",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Title of the customer setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Customer setup instructions",
+          "elementType": "text",
+          "sourceText": "Easily add customers to start tracking your book of business.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Description on the Add Customers setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Start Adding Customers",
+          "elementType": "button",
+          "sourceText": "Start Adding Customers",
+          "accessibleName": "Start Adding Customers",
+          "placeholder": null,
+          "context": "Action on the Add Customers setup card.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Next setup card",
+          "elementType": "button",
+          "sourceText": "Next",
+          "accessibleName": "Next",
+          "placeholder": null,
+          "context": "Carousel control for setup instructions. Additional cards were not opened.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Pro Tools section",
+          "elementType": "text",
+          "sourceText": "Pro Tools",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Heading for the Pro Tools resource list.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "AlarmNet 360",
+          "elementType": "link",
+          "sourceText": "AlarmNet 360",
+          "accessibleName": "AlarmNet 360",
+          "placeholder": null,
+          "context": "Pro Tools resource link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "AlarmNet 360 description",
+          "elementType": "text",
+          "sourceText": "A cloud-based security platform designed for business management.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Description for AlarmNet 360.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "LifeWhere",
+          "elementType": "link",
+          "sourceText": "LifeWhere",
+          "accessibleName": "LifeWhere",
+          "placeholder": null,
+          "context": "Pro Tools resource link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "LifeWhere description",
+          "elementType": "text",
+          "sourceText": "Advanced remote monitoring that alerts you of issues with customer’s HVAC equipment.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Description for LifeWhere.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Marketing section",
+          "elementType": "text",
+          "sourceText": "Marketing",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Heading for the Marketing resource list.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Products Catalog",
+          "elementType": "link",
+          "sourceText": "Products Catalog",
+          "accessibleName": "Products Catalog",
+          "placeholder": null,
+          "context": "Marketing resource link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Products Catalog description",
+          "elementType": "text",
+          "sourceText": "Browse Resideo products specs, install guides and more.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Description for Products Catalog.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Resideo section",
+          "elementType": "text",
+          "sourceText": "Resideo",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Heading for the Resideo resource list.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Pro PERKS",
+          "elementType": "link",
+          "sourceText": "Pro PERKS",
+          "accessibleName": "Pro PERKS",
+          "placeholder": null,
+          "context": "Resideo resource link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Pro PERKS description",
+          "elementType": "text",
+          "sourceText": "Resideo benefits designed to help your business grow.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Description for Pro PERKS.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Enroll in Pro PERKS",
+          "elementType": "link",
+          "sourceText": "Enroll in Pro PERKS",
+          "accessibleName": "Enroll in Pro PERKS",
+          "placeholder": null,
+          "context": "Enrollment action under the Pro PERKS description.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Resideo Academy",
+          "elementType": "link",
+          "sourceText": "Resideo Academy",
+          "accessibleName": "Resideo Academy",
+          "placeholder": null,
+          "context": "Resideo resource link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Resideo Academy description",
+          "elementType": "text",
+          "sourceText": "Choose from available courses to build your skills with Resideo solutions.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Description for Resideo Academy.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Manage Invoices",
+          "elementType": "link",
+          "sourceText": "Manage Invoices",
+          "accessibleName": "Manage Invoices",
+          "placeholder": null,
+          "context": "Resideo resource link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Manage Invoices description",
+          "elementType": "text",
+          "sourceText": "Manage security invoices and payments with HighRadius.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Description for Manage Invoices.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "HighRadius registration introduction",
+          "elementType": "text",
+          "sourceText": "New to HighRadius?",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Registration prompt below the Manage Invoices description.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Register",
+          "elementType": "link",
+          "sourceText": "Register",
+          "accessibleName": "Register",
+          "placeholder": null,
+          "context": "HighRadius registration link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "HighRadius registration instruction",
+          "elementType": "text",
+          "sourceText": "with the same email used for this portal.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Text following the HighRadius Register link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Resideo.com",
+          "elementType": "link",
+          "sourceText": "Resideo.com|",
+          "accessibleName": "Resideo.com|",
+          "placeholder": null,
+          "context": "Dashboard footer link; the captured accessible name includes the adjacent separator character.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "HoneywellHome.com",
+          "elementType": "link",
+          "sourceText": "HoneywellHome.com|",
+          "accessibleName": "HoneywellHome.com|",
+          "placeholder": null,
+          "context": "Dashboard footer link; the captured accessible name includes the adjacent separator character.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Privacy Policy",
+          "elementType": "link",
+          "sourceText": "Privacy Policy|",
+          "accessibleName": "Privacy Policy|",
+          "placeholder": null,
+          "context": "Dashboard footer link; the captured accessible name includes the adjacent separator character.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Terms & Conditions",
+          "elementType": "link",
+          "sourceText": "Terms & Conditions|",
+          "accessibleName": "Terms & Conditions|",
+          "placeholder": null,
+          "context": "Dashboard footer link; the captured accessible name includes the adjacent separator character.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Order FAQ",
+          "elementType": "link",
+          "sourceText": "Order FAQ",
+          "accessibleName": "Order FAQ",
+          "placeholder": null,
+          "context": "Dashboard footer link.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        },
+        {
+          "elementId": null,
+          "elementName": "Copyright notice",
+          "elementType": "text",
+          "sourceText": "© 2026 Resideo Technologies, Inc. The Honeywell Home trademark is used under license from Honeywell International Inc.",
+          "accessibleName": null,
+          "placeholder": null,
+          "context": "Dashboard footer copyright and trademark notice.",
+          "screenshotReference": "artifacts/baseline/dashboard.png"
+        }
+      ]
+    }
+  ]
+}

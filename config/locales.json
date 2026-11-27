@@ -3,13 +3,111 @@
   "sourceLocale": {
     "code": "en",
     "name": "English",
+    "nativeName": "English",
     "isCanonical": true
   },
   "supportedTargetLocales": [
-    {"code": "es", "name": "Spanish", "direction": "LTR"},
-    {"code": "de", "name": "German", "direction": "LTR"},
-    {"code": "fr", "name": "French", "direction": "LTR"},
-    {"code": "ja", "name": "Japanese", "direction": "LTR"},
-    {"code": "ar", "name": "Arabic", "direction": "RTL"}
+    {
+      "code": "bg",
+      "name": "Bulgarian",
+      "nativeName": "български",
+      "direction": "LTR"
+    },
+    {
+      "code": "cs",
+      "name": "Czech",
+      "nativeName": "Čeština",
+      "direction": "LTR"
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "nativeName": "Deutsch",
+      "direction": "LTR"
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "nativeName": "Español",
+      "direction": "LTR"
+    },
+    {
+      "code": "es-419",
+      "name": "Spanish - Latin America",
+      "nativeName": "Español - América Latina",
+      "direction": "LTR"
+    },
+    {
+      "code": "es-MX",
+      "name": "Spanish - Mexico",
+      "nativeName": "Español - México",
+      "direction": "LTR"
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "nativeName": "Français",
+      "direction": "LTR"
+    },
+    {
+      "code": "fr-CA",
+      "name": "French - Canada",
+      "nativeName": "Français - Canada",
+      "direction": "LTR"
+    },
+    {
+      "code": "el",
+      "name": "Greek",
+      "nativeName": "Ελληνικά",
+      "direction": "LTR"
+    },
+    {
+      "code": "hr",
+      "name": "Croatian",
+      "nativeName": "Hrvatski",
+      "direction": "LTR"
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "nativeName": "Italiano",
+      "direction": "LTR"
+    },
+    {
+      "code": "hu",
+      "name": "Hungarian",
+      "nativeName": "Magyar",
+      "direction": "LTR"
+    },
+    {
+      "code": "nl",
+      "name": "Dutch",
+      "nativeName": "Nederlands",
+      "direction": "LTR"
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "nativeName": "Polski",
+      "direction": "LTR"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "nativeName": "Português",
+      "direction": "LTR"
+    },
+    {
+      "code": "pt-BR",
+      "name": "Portuguese - Brazil",
+      "nativeName": "Português - Brasil",
+      "direction": "LTR"
+    },
+    {
+      "code": "sk",
+      "name": "Slovak",
+      "nativeName": "Slovenčina",
+      "direction": "LTR"
+    }
   ]
 }
