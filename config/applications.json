@@ -1,0 +1,28 @@
+
+{
+  "applicationName": "Resideo Connect",
+  "applicationUrl": "https://pro.stage.resideo.com/",
+  "sourceLanguage": "en",
+  "sourceLanguageName": "English",
+  "targetLanguage": "es",
+  "targetLanguageName": "Spanish",
+  "testingScope": [
+    "Dashboard"
+  ],
+  "authentication": {
+    "mode": "manual"
+  },
+  "execution": {
+    "captureEnglishBaseline": false,
+    "compareTranslatedContent": true,
+    "captureScreenshots": true,
+    "reuseExistingBaseline": true
+  },
+  "baseline": {
+    "filePath": "artifacts/baseline/english-baseline.json",
+    "required": true,
+    "sourceLanguage": "en",
+    "approvalRequired": true,
+    "regenerateAutomatically": false
+  }
+}

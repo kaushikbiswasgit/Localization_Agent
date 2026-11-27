@@ -1,0 +1,15 @@
+
+{
+  "sourceLocale": {
+    "code": "en",
+    "name": "English",
+    "isCanonical": true
+  },
+  "supportedTargetLocales": [
+    {"code": "es", "name": "Spanish", "direction": "LTR"},
+    {"code": "de", "name": "German", "direction": "LTR"},
+    {"code": "fr", "name": "French", "direction": "LTR"},
+    {"code": "ja", "name": "Japanese", "direction": "LTR"},
+    {"code": "ar", "name": "Arabic", "direction": "RTL"}
+  ]
+}

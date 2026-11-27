@@ -1,0 +1,33 @@
+
+{
+  "validation": {
+    "languageDetection": true,
+    "untranslatedText": true,
+    "mixedLanguage": true,
+    "semanticComparison": true,
+    "meaningPreservation": true,
+    "translationCompleteness": true,
+    "terminologyConsistency": true,
+    "negationValidation": true,
+    "numberAndPlaceholderValidation": true,
+    "visualValidation": true,
+    "rtlValidation": true
+  },
+  "semanticComparison": {
+    "referenceLanguage": "en",
+    "compareMeaning": true,
+    "compareIntent": true,
+    "detectMissingInformation": true,
+    "detectAdditionalInformation": true,
+    "detectOppositeMeaning": true,
+    "uncertainResult": "NEEDS_HUMAN_REVIEW"
+  },
+  "reporting": {
+    "format": "HTML",
+    "includeEnglishBaseline": true,
+    "includeTranslatedText": true,
+    "includeScreenshots": true,
+    "includeSeverity": true,
+    "includeCoverage": true
+  }
+}
